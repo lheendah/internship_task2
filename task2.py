@@ -13,17 +13,6 @@ def greeting(greeting: str = "Hello", name: str = "Lheendah"):
     # return ({"greeting": f"{greeting}, {name}!"})
     return f"{greeting}, {name}! Congratulations, you have successfully completed the basic FastAPI task"
 
-"""
-    A simple endpoint to generate a dynamic greeting message.
-
-    Query Parameters:
-    - greeting (str): The greeting text (e.g., "Hi", "Welcome").
-    - name (str): The name to greet.
-
-    Returns:
-    - JSON: A dictionary with the personalized greeting message.
-"""
-     
     # Return a JSON response with the greeting and name
 
 
